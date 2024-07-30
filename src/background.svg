@@ -3,7 +3,7 @@
 <rect width="1920" height="1080" fill="white" shape-rendering="crispEdges"/>
 <rect x="0.5" y="0.5" width="1919" height="1079" stroke="black" shape-rendering="crispEdges"/>
 <mask id="mask0_1_1090" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="1080">
-<rect width="1920" height="1080" fill="#C4C4C4"/>
+<rect width="1920" height="1080" fill="#AAAAAA"/>
 </mask>
 <g mask="url(#mask0_1_1090)">
 <g opacity="0.15">
