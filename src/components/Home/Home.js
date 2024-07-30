@@ -1,5 +1,6 @@
 import React from "react";
 import Services from "../ServicesSection/ServiceSection";
+import AboutMe from "../AboutMeSection/AboutMeSection";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
         Tafara Sithole
       </h1>
       <Services />
+      <AboutMe />
     </div>
   );
 };
