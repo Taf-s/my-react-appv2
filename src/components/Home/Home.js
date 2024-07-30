@@ -1,4 +1,5 @@
 import React from "react";
+import Services from "../ServicesSection/ServiceSection";
 
 const Home = () => {
   return (
@@ -6,6 +7,7 @@ const Home = () => {
       <h1 className="text-black text-6xl font-bold text-center">
         Tafara Sithole
       </h1>
+      <Services />
     </div>
   );
 };
