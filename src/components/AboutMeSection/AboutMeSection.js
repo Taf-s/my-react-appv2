@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
@@ -12,9 +13,13 @@ const AboutMe = () => {
         <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. testing
       </p>
-      <button className="bg-black hover:grey-700 text-white w-1/4 font-bold py-2 rounded mt-6">
-        Contact
-      </button>
+      <div>
+        <Link to="/contact">
+          <button className="bg-black hover:grey-700 text-white w-1/4 font-bold py-2 rounded mt-6">
+            Contact
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };
