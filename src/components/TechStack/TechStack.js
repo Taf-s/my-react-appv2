@@ -10,8 +10,8 @@ const TechStack = () => {
       <div className="container mx-auto p-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <h2 className="subtitle-1 text-black text-lg font-medium mt-6 mb-2">
-              LANGUAGES
+            <h2 className="subtitle-1 text-black text-3xl font-medium mt-6 mb-2">
+              Languages
             </h2>
             <div className="mt-4">
               <h3 className="subtitle-1 text-black text-lg font-medium mt-6 mb-2">
@@ -52,8 +52,8 @@ const TechStack = () => {
           </div>
 
           <div>
-            <h2 className="subtitle-1 text-black text-lg font-medium mt-6 mb-2">
-              LIBRARIES
+            <h2 className="subtitle-1 text-black text-3xl font-medium mt-6 mb-2">
+              Libraries
             </h2>
             <div className="mt-4">
               <h3 className="subtitle-1 text-black text-lg font-medium mt-6 mb-2">
@@ -70,8 +70,8 @@ const TechStack = () => {
           </div>
 
           <div>
-            <h2 className="subtitle-1 text-black text-lg font-medium mt-6 mb-2">
-              FRAMEWORKS
+            <h2 className="subtitle-1 text-black text-3xl font-medium mt-6 mb-2">
+              Frameworks
             </h2>
             <div className="mt-4">
               <h3 className="subtitle-1 text-black text-lg font-medium mt-6 mb-2">
