@@ -5,7 +5,7 @@ import Project3 from "./Project3";
 
 const ProjectsPage = () => {
   return (
-    <div>
+    <div className="space-y-12">
       <Project1 />
       <Project2 />
       <Project3 />
