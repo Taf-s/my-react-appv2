@@ -1,12 +1,26 @@
 import "./App.css";
 import "tailwindcss/tailwind.css";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
+import ProjectsPage from "./components/Projects/ProjectsPage";
+import TechStack from "./components/TechStack/TechStack";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/tech-stack" element={<TechStack />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
