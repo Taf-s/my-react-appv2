@@ -33,11 +33,14 @@ const TechStack = () => {
               </h3>
               {/* Description for the HTML language */}
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                HTML (HyperText Markup Language) is the standard language used
+                to create and design web pages. It structures content on the web
+                by using a series of elements and tags, allowing developers to
+                define headings, paragraphs, links, images, and other types of
+                content. HTML documents are made up of nested elements that
+                provide both structure and semantics to the content, ensuring
+                that web pages are displayed correctly in browsers and are
+                accessible to users.
               </p>
             </div>
             {/* Container for the CSS language description */}
@@ -48,11 +51,13 @@ const TechStack = () => {
               </h3>
               {/* Description for the CSS language */}
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                CSS (Cascading Style Sheets) is a stylesheet language used to
+                control the presentation and layout of web pages. It enables
+                developers to apply styles to HTML elements, such as fonts,
+                colors, spacing, and positioning. By separating content from
+                design, CSS allows for more flexible and efficient web
+                development. It also supports responsive design, ensuring that
+                web pages look great on various devices and screen sizes.
               </p>
             </div>
             {/* Container for the JavaScript language description */}
@@ -63,11 +68,14 @@ const TechStack = () => {
               </h3>
               {/* Description for the JavaScript language */}
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                JavaScript is a versatile programming language used to create
+                dynamic and interactive features on web pages. It allows
+                developers to manipulate HTML and CSS, handle user events, and
+                build complex functionalities like animations, form validation,
+                and real-time updates. As a core technology of the web,
+                JavaScript enables seamless integration of front-end and
+                back-end processes, enhancing the user experience and making web
+                applications more responsive and engaging.
               </p>
             </div>
           </div>
@@ -86,11 +94,14 @@ const TechStack = () => {
               </h3>
               {/* Description for the React library */}
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                React is a popular JavaScript library used for building user
+                interfaces, particularly single-page applications. It allows
+                developers to create reusable UI components that efficiently
+                update and render in response to data changes. By utilizing a
+                virtual DOM, React optimizes performance and ensures smooth,
+                dynamic interactions. Its component-based architecture
+                simplifies the development process and helps in maintaining
+                scalable and maintainable code for complex applications.
               </p>
             </div>
           </div>
@@ -109,11 +120,14 @@ const TechStack = () => {
               </h3>
               {/* Description for the Tailwind CSS framework */}
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Tailwind CSS is a utility-first CSS framework that allows for
+                rapid and customizable design of web interfaces. By providing a
+                comprehensive set of low-level utility classes, it enables
+                developers to build complex layouts and designs directly in the
+                HTML without needing custom CSS. Tailwind promotes a more
+                consistent and maintainable approach to styling, offering
+                responsive, flexible, and easily configurable design solutions
+                for modern web development.
               </p>
             </div>
           </div>
