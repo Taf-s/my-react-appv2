@@ -1,6 +1,7 @@
 // Project3 //
 
 import React from "react";
+import projectImage from "./project3.png";
 
 /**
  * Renders the Project 3 component.
@@ -16,19 +17,19 @@ const Project3 = () => {
         Project 3
       </h1>
       {/* Container for the project image and description */}
-      <div className="flex justify-center items-center w-full">
+      <div className="flex justify-between items-center w-full">
         {/* Container for the project image */}
-        <div className="mr-40 mt-6">
+        <div className="ml-40 mt-6">
           <img
-            src="path/to/image.jpg" // Path to the project image
-            alt="Project 1" // Alternative text for the image
+            src={projectImage} // Path to the project image
+            alt="Project 3" // Alternative text for the image
             className="w-[500px] h-[500px] object-cover" // CSS classes for styling the image
           />
         </div>
         {/* Container for the project description */}
         <div className="w-[500px] h-[500px] flex flex-col justify-between">
           {/* Container for the project title */}
-          <div className="ml-40">
+          <div className="mr-40">
             {/* Project title */}
             <h2 className="text-black text-3xl font-medium mt-6 mb-4">
               Project Description
@@ -45,7 +46,7 @@ const Project3 = () => {
             </p>
           </div>
           {/* Container for the project repo button */}
-          <div className="ml-40">
+          <div className="mr-40">
             {/* Project repo button */}
             <button className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-6">
               Project Repo
