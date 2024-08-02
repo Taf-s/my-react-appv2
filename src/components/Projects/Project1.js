@@ -20,9 +20,9 @@ const Project1 = () => {
         {/* Container for the project image */}
         <div className="mr-40 mt-6">
           <img
-            src="path/to/image.jpg"
+            src="./components/Projects/project1.png"
             alt="Project 1"
-            className="w-[500px] h-[500px] object-cover"
+            // className="w-[500px] h-[500px] object-cover"
           />
         </div>
         {/* Container for the project description */}
