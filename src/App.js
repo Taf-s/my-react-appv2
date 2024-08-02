@@ -8,6 +8,11 @@ import ProjectsPage from "./components/Projects/ProjectsPage";
 import TechStack from "./components/TechStack/TechStack";
 import Contact from "./components/Contact/Contact";
 
+/**
+ * Renders the main application component.
+ *
+ * @return {JSX.Element} The rendered application component.
+ */
 function App() {
   return (
     <Router>
