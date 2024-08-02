@@ -2,6 +2,7 @@
 
 import React from "react";
 import projectImage from "./project3.png";
+import { Link } from "react-router-dom";
 
 /**
  * Renders the Project 3 component.
@@ -59,10 +60,15 @@ const Project3 = () => {
           </div>
           {/* Container for the project repo button */}
           <div className="mr-40">
-            {/* Project repo button */}
-            <button className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-6">
-              Project Repo
-            </button>
+            <Link
+              to="https://github.com/Taf-s/Module_5_TAFSIT578_FTO2408_B1_Tafara-Sithole_JSL05"
+              target="_blank"
+            >
+              {/* Project repo button */}
+              <button className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-6">
+                Project Repo
+              </button>
+            </Link>
           </div>
         </div>
       </div>
