@@ -36,13 +36,23 @@ const Project2 = () => {
             </h2>
             {/* Project description */}
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              The CodeCuisine Menu System is a web-based application designed to
+              provide an interactive and user-friendly menu experience for a
+              fictional restaurant named "CodeCuisine." The system dynamically
+              displays menu items, allows users to add items to their order, and
+              supports removing items with real-time updates to the total price.
             </p>
             {/* Project description */}
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              The CodeCuisine Menu System dynamically generates menu items using
+              JavaScript, categorizing them into Starters, Main Courses, and
+              Desserts. Users can interactively add items to their order by
+              clicking on them, with each selection displayed in a list format
+              and a fixed price of R60 added to the total. Items can be removed
+              by clicking on them in the order summary, which updates both the
+              list and the total price in real-time. The HTML structure ensures
+              a responsive layout, providing a clear and organized presentation
+              of the menu and order summary
             </p>
           </div>
           {/* Container for the project repo button */}

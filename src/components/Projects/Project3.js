@@ -36,13 +36,25 @@ const Project3 = () => {
             </h2>
             {/* Project description */}
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              The Guardians' Playlist Generator is a web-based application
+              designed to create personalized playlists for characters from the
+              Guardians of the Galaxy. Each Guardian has a preferred music
+              genre, and the application dynamically generates playlists based
+              on these preferences. This project demonstrates the use of
+              JavaScript to manipulate the DOM and filter data.
             </p>
             {/* Project description */}
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              The Guardians' Playlist Generator features an array of song
+              objects with titles, artists, and genres, reflecting the
+              Guardians' iconic style. It includes an array of Guardian objects
+              with preferred music genres (Rock, Pop, R&B) for Star-Lord,
+              Gamora, Groot, Rocket, and Drax. A dynamic playlist generation
+              function uses the map function to create playlists based on these
+              preferences, filtering songs accordingly. The playlists are
+              appended to the HTML for a responsive, organized display, with
+              each playlist showing the song title and artist. Additional songs
+              have been added using the push method to expand the track variety.
             </p>
           </div>
           {/* Container for the project repo button */}

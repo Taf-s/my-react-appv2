@@ -36,13 +36,25 @@ const Project1 = () => {
             </h2>
             {/* Project description */}
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              The Chrome Dashboard is a personalized web-based dashboard
+              designed to enhance the user experience by displaying dynamic
+              content such as a background image, current time, cryptocurrency
+              prices, and local weather information. This project leverages
+              various APIs to fetch real-time data, ensuring users have
+              up-to-date information at a glance.
             </p>
             {/* Project description */}
             <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              The Chrome Dashboard features a dynamic background image fetched
+              from the Unsplash API, updating with each page load for a fresh
+              visual experience. It displays real-time Bitcoin data from the
+              CoinGecko API, including the current price, 24-hour high, and
+              24-hour low. A live digital clock updates every second, showing
+              the current time in a 24-hour format. Using the OpenWeatherMap API
+              and geolocation, the dashboard provides local weather information,
+              including temperature, weather icon, and city name. The layout is
+              designed to be responsive, ensuring optimal display across various
+              screen sizes and devices.
             </p>
           </div>
           {/* Container for the project repo button */}
