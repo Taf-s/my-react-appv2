@@ -17,10 +17,13 @@ const AboutMe = () => {
       </h1>
       {/* Paragraph with a sample text */}
       <p className="mt-6">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-        <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. testing
+        I specialize in crafting custom software solutions that are tailored to
+        meet your unique needs. With my unique background in Anthropology, I
+        bring a unique and more user focused approach to crafting custom
+        software solutions. I have experience in designing, developing, and
+        deploying custom software solutions for SMEs. Being an entrepreneur, I
+        have a deep understanding of what small and medium sized businesses
+        need.
       </p>
       {/* Container for the contact button */}
       <div>
